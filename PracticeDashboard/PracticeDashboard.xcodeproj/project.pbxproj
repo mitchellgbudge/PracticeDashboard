@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6E0678EA28808FF10025FF8E /* PracticeDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0678E928808FF10025FF8E /* PracticeDashboardApp.swift */; };
-		6E0678EC28808FF10025FF8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0678EB28808FF10025FF8E /* ContentView.swift */; };
 		6E0678EE28808FF20025FF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0678ED28808FF20025FF8E /* Assets.xcassets */; };
 		6E0678F128808FF20025FF8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0678F028808FF20025FF8E /* Preview Assets.xcassets */; };
 		6E0678FB28808FF30025FF8E /* PracticeDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0678FA28808FF30025FF8E /* PracticeDashboardTests.swift */; };
 		6E06790528808FF30025FF8E /* PracticeDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E06790428808FF30025FF8E /* PracticeDashboardUITests.swift */; };
 		6E06790728808FF30025FF8E /* PracticeDashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E06790628808FF30025FF8E /* PracticeDashboardUITestsLaunchTests.swift */; };
+		6E067916288090630025FF8E /* DashboardMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E067915288090630025FF8E /* DashboardMainView.swift */; };
+		6E0679182880C1230025FF8E /* VisitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0679172880C1230025FF8E /* VisitListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		6E0678E628808FF10025FF8E /* PracticeDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0678E928808FF10025FF8E /* PracticeDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeDashboardApp.swift; sourceTree = "<group>"; };
-		6E0678EB28808FF10025FF8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E0678ED28808FF20025FF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E0678F028808FF20025FF8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E0678F628808FF30025FF8E /* PracticeDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		6E06790028808FF30025FF8E /* PracticeDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E06790428808FF30025FF8E /* PracticeDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeDashboardUITests.swift; sourceTree = "<group>"; };
 		6E06790628808FF30025FF8E /* PracticeDashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeDashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E067915288090630025FF8E /* DashboardMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMainView.swift; sourceTree = "<group>"; };
+		6E0679172880C1230025FF8E /* VisitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				6E0678E928808FF10025FF8E /* PracticeDashboardApp.swift */,
-				6E0678EB28808FF10025FF8E /* ContentView.swift */,
+				6E067915288090630025FF8E /* DashboardMainView.swift */,
+				6E0679172880C1230025FF8E /* VisitListView.swift */,
 				6E0678ED28808FF20025FF8E /* Assets.xcassets */,
 				6E0678EF28808FF20025FF8E /* Preview Content */,
 			);
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0678EC28808FF10025FF8E /* ContentView.swift in Sources */,
 				6E0678EA28808FF10025FF8E /* PracticeDashboardApp.swift in Sources */,
+				6E067916288090630025FF8E /* DashboardMainView.swift in Sources */,
+				6E0679182880C1230025FF8E /* VisitListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

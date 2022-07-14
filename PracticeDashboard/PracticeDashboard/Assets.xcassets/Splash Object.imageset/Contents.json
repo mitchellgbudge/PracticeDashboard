@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Ontada-Spark 1.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "iPhone - Ontada-Spark 2.pdf",
+      "idiom" : "universal",
+      "width-class" : "compact"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}

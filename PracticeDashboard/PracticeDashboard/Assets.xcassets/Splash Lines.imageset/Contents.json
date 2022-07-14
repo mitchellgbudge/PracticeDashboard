@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ontd_line_art_3_hrz_rgb_rev.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "ontd_line_art_5_hrz_rgb_rev.pdf",
+      "idiom" : "universal",
+      "width-class" : "compact"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}
